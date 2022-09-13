@@ -1,6 +1,46 @@
-<!DOCTYPE html>
-<html>
-<body>
+<style>
+    .continent {
+  display:grid;
+   grid-template-columns : repeat(4, 100px);
+  grid-auto-rows: minmax(50px, auto);
+  
+}
+
+a[href="https://commons.wikimedia.org/wiki/File:Flag_of_Belgium.svg"] {
+ grid-column : 1 / 2;
+}
+
+a[href="https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg"] { 
+grid-column : 1 / 2;
+  grid-row : 1/2;
+}
+
+a[href="https://commons.wikimedia.org/wiki/File:Flag_of_C%C3%B4te_d%27Ivoire.svg"] { 
+grid-column : 3 / 4;
+  grid-row  : 1/2;
+}
+
+a[href="https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg"] { 
+grid-column : 2 / 3;
+  grid-row  : 3/4;
+}
+
+
+a[href="https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg"] { 
+grid-column : 2 / 3;
+  grid-row : 1/2;
+}
+
+a[href="https://commons.wikimedia.org/wiki/File:Flag_of_Bolivia.svg"] { 
+grid-column : 2 / 3;
+  grid-row : 2/3;
+}
+
+a[href="https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg"] { 
+grid-column : 4 / 5;
+}
+    
+    </style>
 <section class="continent">
   <link rel="stylesheet" href="styles.css">
   <a data-continent="asie" title="See File history below for details. / Public domain" href="https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg"><img width="64" alt="Flag of Vietnam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/64px-Flag_of_Vietnam.svg.png"></a>
@@ -13,4 +53,3 @@
   <a data-continent="amerique" title="Governo do Brasil / Public domain" href="https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg"><img width="64" alt="Flag of Brazil" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/64px-Flag_of_Brazil.svg.png"></a>
 </section>
 
-  </body>
